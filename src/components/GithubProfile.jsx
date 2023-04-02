@@ -8,7 +8,7 @@ const GithubProfile = () => {
   const [username, setUsername] = useState("");
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState(null);
-  const [theme, setTheme] = useState("light");
+  const [theme] = useState("light");
 
   useEffect(() => {
     const body = document.querySelector("body");
