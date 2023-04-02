@@ -229,7 +229,7 @@ body {
 }
 
 .profile-info {
-    width: 90%;
+    width: 100%;
     /* width: 50%; */
     display: flex;
     gap: 14px;
@@ -373,7 +373,7 @@ a:link {
 
     .profile-info {
         /* width: 47.5%; */
-        width: 70%;
+        width: 80%;
         font-size: 15px;
     }
 }
